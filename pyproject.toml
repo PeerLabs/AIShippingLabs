@@ -1,0 +1,21 @@
+[project]
+name = "aishippinglabs"
+version = "0.0.1"
+description = "AI Shipping Labs Courseware"
+readme = "README.md"
+authors = [
+    { name = "Abrar Peer", email = "peerlabs@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "dirdotenv>=0.0.3",
+    "jupyter>=1.1.1",
+    "openai>=3.16.2",
+]
+
+[project.scripts]
+aishippinglabs = "aishippinglabs:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
