@@ -2,6 +2,10 @@
 
 AI Shipping Labs Course
 
+## Instructor's Sample Coursework
+
+See the [instructor's GitHub repository](https://github.com/alexeygrigorev/ai-engineering-buildcamp-code/tree/main) for sample coursework.
+
 ## Course Structure
 
 This is a 9-week program designed to take us from LLM basics to production-ready AI applications.
