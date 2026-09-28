@@ -9,13 +9,12 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "dirdotenv>=0.0.3",
+    "gitsource>=0.0.5",
     "jupyter>=1.1.1",
+    "markitdown[pdf]>=0.1.8",
+    "minsearch>=0.2.0",
     "openai>=3.16.2",
 ]
 
-[project.scripts]
-aishippinglabs = "aishippinglabs:main"
-
-[build-system]
-requires = ["uv_build>=0.12.17,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false

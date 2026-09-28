@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded course PDFs (regenerate with week-1/download_books.py)
+src/aishippinglabs/week-1/books/
